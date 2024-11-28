@@ -166,6 +166,19 @@ h1 {
 }
 
 @media (max-width:900px){
+
+  body {
+  display: grid;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #fff;
+}
+.container {
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+    overflow: hidden;
+  display: flex;
   
   .ship_1,
   .ship_2 {
@@ -186,6 +199,19 @@ h1 {
   }
 }
 @media (max-width:500px){
+
+  body {
+  display: grid;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #fff;
+}
+.container {
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+    overflow: hidden;
+  display: flex;
   
   .ship_1,
   .ship_2 {
